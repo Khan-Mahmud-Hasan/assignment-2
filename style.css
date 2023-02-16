@@ -151,6 +151,20 @@ header {
     color: #727272;
 }
 
+.features-love-enjoy-btn {
+    color: white;
+    font-size: 20px;
+    background: #FF900E;
+    padding: 25px;
+    border: 0;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    position: relative;
+    bottom: 115px;
+    left: -28px;
+}
+
 .some-facts-details {
     margin-left: 20px;
 
@@ -285,6 +299,10 @@ Responsive
         align-items: center;
         text-align: center;
         gap: 30px;
+    }
+
+    .features-love-enjoy-btn {
+        position: unset;
     }
 
     .sponsor-image {
