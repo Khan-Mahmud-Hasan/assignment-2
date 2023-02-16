@@ -18,8 +18,7 @@ header {
 }
 
 .nav-title {
-    font-weight: 700;
-    font-size: 45px;
+    font-size: 25px;
 }
 
 .menu-items {
@@ -41,19 +40,20 @@ header {
 }
 
 .banner-title {
-    font-weight: 700;
+    /* font-weight: 700px; */
     font-size: 64px;
     margin-top: 30px;
 }
 
-.banner-info {
-    font-weight: 400;
+.banner-info,
+.feature-info {
     font-size: 16px;
     color: #727272;
     margin-top: 30px;
 }
 
-.banner-btn {
+.banner-btn,
+.feature-btn {
     margin-top: 30px;
     color: white;
     font-size: 20px;
@@ -66,4 +66,65 @@ header {
 
 .banner-container img {
     width: 100%;
+}
+
+
+/* Main section Style */
+.quick-list-features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 85px 5px 100px 100px;
+}
+
+.feature {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.feature img {
+    width: 342px;
+}
+
+.feature-details {
+    margin-left: 50px;
+}
+
+.feature-title {
+    font-weight: 500;
+    font-size: 45px;
+}
+
+.first-part {
+    color: #727272;
+}
+
+.second-part {
+    color: #131313;
+    font-weight: 700;
+}
+
+.third-part {
+    font-weight: 700;
+    color: #FF900E;
+}
+
+
+
+/* ---------------------
+Responsive
+------------------------ */
+
+/* Mobile Device */
+
+@media only screen and (max-width:688px) {
+    .container {
+        width: 100%;
+    }
+
+    .nav-container .menu-items {
+        flex-direction: column;
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
