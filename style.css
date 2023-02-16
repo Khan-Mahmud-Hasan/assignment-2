@@ -36,7 +36,7 @@ header {
 
 .banner-container {
     text-align: center;
-    padding: 30px 100px;
+    padding: 30px 50px;
 }
 
 .banner-title {
@@ -178,7 +178,14 @@ header {
     margin-bottom: 100px;
     margin-top: 50px;
     width: 200px;
+    transition: width 2s, height 2s, transform 2s;
+}
 
+.fact:hover {
+    width: 250px;
+    height: 150px;
+    background: #FFF4E7;
+    transform: rotate(360deg);
 }
 
 .fact-title {
