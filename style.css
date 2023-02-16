@@ -46,7 +46,8 @@ header {
 }
 
 .banner-info,
-.feature-info {
+.feature-info,
+.sponsors-details-info {
     font-size: 16px;
     color: #727272;
     margin-top: 30px;
@@ -146,6 +147,60 @@ header {
     font-weight: 400;
     font-size: 16px;
     color: #727272;
+}
+
+.some-facts-details {
+    margin-left: 20px;
+
+}
+
+.some-facts-details-title,
+.sponsors-details-title {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.facts {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    /* column-gap: 120px; */
+}
+
+.fact {
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    /* transform: rotate(90deg); */
+    text-align: center;
+    padding: 40px 30px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    width: 200px;
+
+}
+
+.fact-title {
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+}
+
+
+.fact-info {
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+}
+
+.sponsors-details {
+    text-align: center;
+}
+
+
+.sponsor-image {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
 }
 
 /* ---------------------
